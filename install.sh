@@ -232,23 +232,23 @@ cd
 apt-get install -y libxml-parser-perl
 
 # banner /etc/issue.net
-wget -O /etc/issues.net "https://raw.githubusercontent.com/GanzKurosaki/install/master/issues.net"
+wget -O /etc/issues.net "https://raw.githubusercontent.com/nstfreenet/janda/master/issue.net"
 sed -i 's@#Banner@Banner@g' /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issues.net"@g' /etc/default/dropbear
 
 # download script
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/GanzKurosaki/install/master/menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/GanzKurosaki/install/master/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/GanzKurosaki/install/master/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/GanzKurosaki/install/master/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/GanzKurosaki/install/master/member.sh"
-wget -O delete "https://raw.githubusercontent.com/GanzKurosaki/install/master/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/GanzKurosaki/install/master/cek.sh"
-wget -O restart "https://raw.githubusercontent.com/GanzKurosaki/install/master/restart.sh"
-wget -O speedtest "https://raw.githubusercontent.com/GanzKurosaki/install/master/speedtest_cli.py"
-wget -O info "https://raw.githubusercontent.com/GanzKurosaki/install/master/info.sh"
-wget -O about "https://raw.githubusercontent.com/GanzKurosaki/install/master/about.sh"
+wget -O menu "https://raw.githubusercontent.com/nstfreenet/janda/master/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/nstfreenet/janda/master/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/nstfreenet/janda/master/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/nstfreenet/janda/master/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/nstfreenet/janda/master/member.sh"
+wget -O delete "https://raw.githubusercontent.com/nstfreenet/janda/master/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/nstfreenet/janda/master/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/nstfreenet/janda/master/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/nstfreenet/janda/master/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/nstfreenet/janda/master/info.sh"
+wget -O about "https://raw.githubusercontent.com/nstfreenet/janda/master/about.sh"
 
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
