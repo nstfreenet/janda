@@ -103,7 +103,7 @@ apt-get -y install neofetch
 cd
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo by gcsumardani" >> .profile
+echo "echo by NSTFREENET" >> .profile
 
 # instal php5.6 ubuntu 16.04 64bit
 apt-get -y update
@@ -331,7 +331,7 @@ echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "Original Script by GCSumardani"  | tee -a log-install.txt
+echo "Original Script by NSTFREENET"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
