@@ -13,15 +13,15 @@ MYIP2="s/xxxxxxxxx/$MYIP/g";
 
 #detail nama perusahaan
 country=ID
-state=Indonesia
+state=JAWATENGAH
 locality=Indonesia
-organization=www.mrrobotz.tech
-organizationalunit=www.mrrobotz.tech
-commonname=www.mrrobotz.tech
-email=admin@mrrobotz.tech
+organization=GROBOGAN
+organizationalunit=JOMBLOSSH
+commonname=NSTFREENET.ID
+email=admin@NSTPROJECT
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/GanzKurosaki/install/master/common-password-deb9"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/nstfreenet/janda/master/common-password-deb9"
 chmod +x /etc/pam.d/common-password
 
 # go to root
